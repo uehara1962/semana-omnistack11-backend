@@ -39,9 +39,10 @@ module.exports = {
     //   title, description, value, ong_id
     // })
   
-    console.log('result: ',result)
+    // console.log('result: ',result)
 
     // return response.json({ id })
+    return response.send()
   },
 
   async delete (request, response) {
